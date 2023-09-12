@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background:linear-gradient(rgba(255,255,255,0.4) 30%, rgba(173,216,230,0.8) 70%); */
+    background-color: aliceblue;
+    
+}
+header{
+    position: relative;
+
+   
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+
+
+}
+.logo{
+    display: flex;
+    position:absolute;
+    left:3%;
+}
+.heading{
+    display: flex;
+}
+h2{
+    display:flex;
+    font-size:40px;
+    color:royalblue;
+ }
+nav{
+    width: 100%;
+    height: 76px;
+    margin-left:0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+
+}
+#head1{
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    color:#3c4852;
+    left:3%;
+}
+.menu{
+    margin-left: 70%;
+    z-index:1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap:0px;
+}
+.login{
+    margin:10px;
+    font-size:20px;
+    font-style: italic;
+    font-family: monospace;
+    color:black;
+    border-radius:5px;
+    padding: 8px;
+    outline: none;
+    border:1px solid #3c4852;
+}
+.login:hover{
+    color:black;
+    background: rgb(168, 168, 235);
+    cursor: pointer;
+
+}
+.sign{
+    font-size: 20px;
+    font-style: italic;
+    font-family: monospace;
+    color:black;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+        border:1px solid #3c4852;
+}
+.sign:hover{
+    color:black;
+    background: rgb(225, 225, 150);
+    cursor: pointer;
+}
+.icon{
+    display:flex;
+    color:red;
+}
+.content{
+    display: block;
+
+}
+.content h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 2%;
+    margin-top:1%;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.content h1 span{
+    color:royalblue;
+}
+.content p{
+    color:darkblue;
+    margin-left: 2%;
+    font-size: 30px;
+}
+.content p span{
+    color:rgb(78, 116, 0);
+
+}
+#image{
+    position: absolute;
+    right:0%;
+    bottom:10%;
+}
+ .input{
+    width: 32%;
+    font-size: 20px;
+    border-radius: 6px;
+    border-style: double;
+    border-color: blue;
+    color:black;
+    margin-left: 3%;
+    padding:10px;
+ }
+ #para{
+    font-size: 15px;
+    margin-left: 3%;
+    color: black;
+    font-size: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .but button{
+    color:white;
+    background-color: rgb(18, 37, 14);
+    font-size: 20px;
+    border:1px solid black;
+    padding:10px;
+    margin-left: 3%;
+    border-radius: 10px;
+    width:420px;
+    height: 50px;
+
+ }
+ .but button:hover{
+    background-color: rgb(75, 113, 75);
+ }
